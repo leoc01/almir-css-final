@@ -10,7 +10,10 @@ const PhotoCardCart = ({ text }) => {
 			/>
 			<div className="">
 				<h3 className="text-base md:text-lg">
-					crianças brincando
+					crianças brincando{' '}
+					<span className="text-gray-600 text-sm">
+						(TAMANHO: Médio)
+					</span>
 				</h3>
 				<p className="my-1 text-base md:text-lg">
 					R$ 9.999,99

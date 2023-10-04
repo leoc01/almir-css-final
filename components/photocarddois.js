@@ -4,13 +4,15 @@ import Link from 'next/link';
 const PhotoCardDois = ({ className }) => {
 	return (
 		<div className={`my-8 ${className}`}>
-			<img
-				src="/photoalmir2.jpg"
-				className="object-cover h-64 w-full drop-shadow-2xl"
-			/>
-			<h4 className="mx-3 mt-4 text-xl">
-				crianças brincando
-			</h4>
+			<Link href="/produto">
+				<img
+					src="/photoalmir2.jpg"
+					className="object-cover h-64 w-full drop-shadow-2xl"
+				/>
+				<h4 className="mx-3 mt-4 text-xl">
+					ribeira de gaia
+				</h4>
+			</Link>
 			<p className="mx-3 my-1 text-lg text-gray-600">
 				R$ 9.999,99
 			</p>
