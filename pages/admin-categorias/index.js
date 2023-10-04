@@ -2,7 +2,7 @@ import Container from '@/components/container';
 import Layout from '@/components/layout';
 import Link from 'next/link';
 
-export default function Perfil() {
+export default function Categorias() {
 	return (
 		<>
 			<Layout>
@@ -10,7 +10,7 @@ export default function Perfil() {
 					<h1 className="text-4xl mb-8">
 						Meu perfil
 					</h1>
-					<div className="flex flex-col md:flex-row justify-between items-start gap-16 max-w-5xl">
+					<div className="flex justify-between items-center max-w-5xl">
 						<div>
 							<p className="text-xl font-medium">
 								Almir Bindilatti

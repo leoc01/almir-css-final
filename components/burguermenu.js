@@ -8,7 +8,6 @@ const BurgerMenu = () => {
 	return (
 		<>
 			<button
-				className="flex items-center justify-center w-10 h-10 bg-transparent z-99 hover:bg-gray-200"
 				onClick={() =>
 					setIsOpen(!isOpen)
 				}>

@@ -20,7 +20,7 @@ const TopNav = () => {
 			<Container>
 				<div className="flex flex-col-reverse lg:flex-row justify-between items-center py-4 mb-6 mt-4">
 					<NavLinkGroup />
-					<div className="flex self-end space-x-4 items-center mb-4 lg:mb-0">
+					<div className="flex justify-between w-full lg:w-auto self-end space-x-4 items-center mb-4 lg:mb-0">
 						<Link
 							href="/carrinho"
 							className="bg-black hover:bg-gray-900 text-white px-4 py-2 flex justify-around items-center gap-2 max-w-fit">

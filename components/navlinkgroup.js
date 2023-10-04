@@ -27,6 +27,11 @@ const NavLinkGroup = () => {
 				className="text-gray-600 underline hover:scale-105">
 				outras
 			</Link>
+			<Link
+				href="/"
+				className="text-gray-600 underline hover:scale-105">
+				animais
+			</Link>
 		</div>
 	);
 };
