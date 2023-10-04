@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonLink from './buttonlink';
+import Link from 'next/link';
 
 const PhotoCard = ({ className }) => {
 	return (
@@ -14,13 +14,11 @@ const PhotoCard = ({ className }) => {
 			<p className="mx-3 my-1 text-lg text-gray-600">
 				R$ 9.999,99
 			</p>
-			<div className="flex justify-between mx-3 gap-3">
-				<ButtonLink
-					className="grow text-white bg-black"
-					text="ver produto"
-					href="/produto"
-				/>
-			</div>
+			<Link
+				href="/produto"
+				className="bg-black text-white grow flex items-center justify-center text-lg m-3 px-4 py-2">
+				comprar
+			</Link>
 		</div>
 	);
 };

@@ -1,6 +1,6 @@
 import React from 'react';
-import ButtonLink from './buttonlink';
 import Container from './container';
+import Link from 'next/link';
 
 const PhotoCardProd = ({ text }) => {
 	return (
@@ -46,11 +46,11 @@ const PhotoCardProd = ({ text }) => {
 							</select>
 						</div>
 					</div>
-					<ButtonLink
-						className="px-24 text-white bg-black"
-						text="comprar"
-						href="/carrinho"
-					/>
+					<Link
+						href="/produto"
+						className="bg-black text-white flex items-center justify-center text-lg my-3 px-4 py-2">
+						comprar
+					</Link>
 				</div>
 			</div>
 			<h3 className="titulo3">
