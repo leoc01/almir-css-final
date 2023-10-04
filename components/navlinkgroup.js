@@ -6,7 +6,7 @@ const NavLinkGroup = () => {
 		<div className="flex flex-wrap justify-center gap-x-10 text-lg">
 			<Link
 				href="/"
-				className="text-gray-600 underline">
+				className="text-gray-600 underline hover:scale-105">
 				natureza
 			</Link>
 			<Link href="/" className="">
@@ -14,17 +14,17 @@ const NavLinkGroup = () => {
 			</Link>
 			<Link
 				href="/"
-				className="text-gray-600 underline">
+				className="text-gray-600 underline hover:scale-105">
 				B&W
 			</Link>
 			<Link
 				href="/"
-				className="text-gray-600 underline">
+				className="text-gray-600 underline hover:scale-105">
 				poéticas
 			</Link>
 			<Link
 				href="/"
-				className="text-gray-600 underline">
+				className="text-gray-600 underline hover:scale-105">
 				outras
 			</Link>
 		</div>
