@@ -2,22 +2,18 @@ import Container from '@/components/container';
 import Layout from '@/components/layout';
 import Link from 'next/link';
 
-export default function Registrar() {
+export default function Esqueci() {
 	return (
 		<Layout>
 			<Container>
 				<h1 className="text-4xl mb-8">
-					Entrar
+					Esqueci minha senha
 				</h1>
 				<p>
-					Ainda não tem o seu cadastro?
-					Clique em{' '}
-					<span className="underline">
-						<Link href="/registrar">
-							Cadastrar
-						</Link>
-					</span>{' '}
-					para realizar o seu.
+					Coloque seu email no campo
+					abaixo e clique em "Recuperar
+					senha" para recuperar a sua
+					senha.
 				</p>
 				<form
 					action="#"
@@ -37,29 +33,6 @@ export default function Registrar() {
 							className="w-full p-2 border border-gray-300"
 						/>
 					</div>
-					<div className="mb-4 relative">
-						<label
-							htmlFor="registerPassword"
-							className="block">
-							Senha:{` `}
-							<span className="text-gray-600">
-								(
-								<Link
-									href="/esqueci"
-									className="underline">
-									{`Esqueceu sua senha?`}
-								</Link>
-								)
-							</span>
-						</label>
-						<input
-							type="password"
-							id="registerPassword"
-							name="registerPassword"
-							required
-							className="w-full p-2 pr-10 border border-gray-300"
-						/>
-					</div>
 					<div className="mb-4 flex justify-around gap-8">
 						<input
 							type="reset"
@@ -68,7 +41,7 @@ export default function Registrar() {
 						/>
 						<input
 							type="submit"
-							value="Entrar"
+							value="Recuperar"
 							className="bg-black text-white font-semibold px-4 py-2 cursor-pointer"
 						/>
 					</div>
