@@ -29,7 +29,7 @@ export default function Perfil() {
 							</p>
 							<Link
 								href="/editar-perfil"
-								className="bg-black text-white px-4 py-2 flex justify-center max-w-sm mt-8">
+								className="bg-black hover:bg-gray-900 text-white px-4 py-2 flex justify-center max-w-sm mt-8">
 								Alterar dados
 							</Link>
 						</div>

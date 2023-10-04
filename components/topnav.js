@@ -23,7 +23,7 @@ const TopNav = () => {
 					<div className="flex self-end space-x-4 items-center mb-4 lg:mb-0">
 						<Link
 							href="/carrinho"
-							className="bg-black text-white px-4 py-2 flex justify-around items-center gap-2 max-w-fit">
+							className="bg-black hover:bg-gray-900 text-white px-4 py-2 flex justify-around items-center gap-2 max-w-fit">
 							Ver carrinho
 							<img
 								src="./cart.png"

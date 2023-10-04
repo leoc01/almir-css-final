@@ -30,7 +30,7 @@ const PhotoCardProd = ({ text }) => {
 							<select
 								id="tamanho"
 								name="tamanho"
-								className="w-full p-2 border border-gray-300 bg-white">
+								className="w-full p-2 border border-gray-300 bg-white cursor-pointer">
 								<option value="small">
 									Pequeno
 								</option>
@@ -48,7 +48,7 @@ const PhotoCardProd = ({ text }) => {
 					</div>
 					<Link
 						href="/carrinho"
-						className="bg-black text-white flex items-center justify-center text-lg my-3 px-4 py-2">
+						className="bg-black hover:bg-gray-900 text-white flex items-center justify-center text-lg my-3 px-4 py-2">
 						comprar
 					</Link>
 				</div>

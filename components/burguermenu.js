@@ -8,12 +8,12 @@ const BurgerMenu = () => {
 	return (
 		<>
 			<button
-				className="flex items-center justify-center w-16 h-16 bg-transparent z-99"
+				className="flex items-center justify-center w-10 h-10 bg-transparent z-99 hover:bg-gray-200"
 				onClick={() =>
 					setIsOpen(!isOpen)
 				}>
 				<svg
-					className="block h-6 w-6"
+					className="block h-8 w-8"
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
@@ -42,12 +42,12 @@ const BurgerMenu = () => {
 					<div className="max-w-7xl h-full mx-auto px-6">
 						<div className="grid">
 							<button
-								className="justify-self-end flex items-center text-white justify-center w-16 h-16 bg-transparent z-99"
+								className="justify-self-end flex items-center text-white justify-center w-10 h-10 mt-10 bg-transparent z-99"
 								onClick={() =>
 									setIsOpen(!isOpen)
 								}>
 								<svg
-									className="block h-6 w-6"
+									className="block h-8 w-8"
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
 									viewBox="0 0 24 24"
@@ -83,7 +83,7 @@ const BurgerMenu = () => {
 								</p>
 								<Link
 									href="/registrar"
-									className="bg-white text-black px-4 py-2 flex justify-center">
+									className="bg-white hover:bg-gray-200 text-black px-4 py-2 flex justify-center">
 									Registrar-se
 								</Link>
 							</div>
@@ -98,7 +98,7 @@ const BurgerMenu = () => {
 									</p>
 									<Link
 										href="/carrinho"
-										className="bg-black text-white px-4 py-2 flex justify-around items-center gap-2 max-w-fit">
+										className="bg-black hover:bg-gray-900 text-white px-4 py-2 flex justify-around items-center gap-2 max-w-fit">
 										Ver carrinho
 										<img
 											src="./cart.png"

@@ -40,7 +40,7 @@ export default function Carrinho() {
 					<div className="max-w-sm">
 						<Link
 							href="/carrinho"
-							className="bg-black text-white px-4 py-2 flex justify-center max-w-sm mt-8">
+							className="bg-black hover:bg-gray-900 text-white px-4 py-2 flex justify-center max-w-sm mt-8">
 							Realizar pagamento
 						</Link>
 					</div>

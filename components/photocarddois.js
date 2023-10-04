@@ -18,7 +18,7 @@ const PhotoCardDois = ({ className }) => {
 			</p>
 			<Link
 				href="/produto"
-				className="bg-black text-white grow flex items-center justify-center text-lg m-3 px-4 py-2">
+				className="bg-black hover:bg-gray-900 text-white grow flex items-center justify-center text-lg m-3 px-4 py-2">
 				comprar
 			</Link>
 		</div>

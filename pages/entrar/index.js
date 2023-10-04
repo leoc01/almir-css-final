@@ -69,7 +69,7 @@ export default function Entrar() {
 						<input
 							type="submit"
 							value="Entrar"
-							className="bg-black text-white font-semibold px-4 py-2 cursor-pointer"
+							className="bg-black hover:bg-gray-900 text-white font-semibold px-4 py-2 cursor-pointer"
 						/>
 					</div>
 				</form>
