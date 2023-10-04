@@ -47,7 +47,7 @@ const PhotoCardProd = ({ text }) => {
 						</div>
 					</div>
 					<Link
-						href="/produto"
+						href="/carrinho"
 						className="bg-black text-white flex items-center justify-center text-lg my-3 px-4 py-2">
 						comprar
 					</Link>

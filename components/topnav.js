@@ -6,17 +6,19 @@ import Link from 'next/link';
 
 const TopNav = () => {
 	return (
-		<div>
-			<Link href="/">
+		<div className="relative">
+			<Link
+				href="/"
+				className="relative block h-24 lg:h-24 xl:h-36 overflow-hidden">
 				<img
 					src="/almirlogo.png"
 					alt="Top Image"
-					className="w-full"
+					className="object-left object-cover h-full max-w-none absolute -left-10 lg:left-0"
 				/>
 			</Link>
 
 			<Container>
-				<div className="flex flex-col-reverse lg:flex-row justify-between items-center py-4 mb-6">
+				<div className="flex flex-col-reverse lg:flex-row justify-between items-center py-4 mb-6 mt-4">
 					<NavLinkGroup />
 					<div className="flex self-end space-x-4 items-center mb-4 lg:mb-0">
 						<Link
