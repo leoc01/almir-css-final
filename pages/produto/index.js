@@ -2,10 +2,10 @@ import Container from '@/components/container';
 import Layout from '@/components/layout';
 import PhotoCardProd from '@/components/photocardprod';
 import PhotoCard from '@/components/photocard';
-import PhotoCardDois from '@/components/photocardDois';
+import PhotoCardDois from '@/components/photocarddois';
 import PhotoList from '@/components/photolist';
 
-export default function Home() {
+export default function Produto() {
 	return (
 		<>
 			<Layout>

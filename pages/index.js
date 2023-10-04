@@ -3,7 +3,7 @@ import BigText from '@/components/bigtext';
 import PhotoList from '@/components/photolist';
 import Layout from '@/components/layout';
 import PhotoCard from '@/components/photocard';
-import PhotoCardDois from '@/components/photocardDois';
+import PhotoCardDois from '@/components/photocarddois';
 
 const inter = Montserrat({
 	subsets: ['latin'],

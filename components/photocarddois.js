@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
-const PhotoCard = ({ className }) => {
+const PhotoCardDois = ({ className }) => {
 	return (
 		<div className={`my-8 ${className}`}>
 			<img
-				src="/pimba.webp"
+				src="/photoalmir2.jpg"
 				className="object-cover h-64 w-full drop-shadow-2xl"
 			/>
 			<h4 className="mx-3 mt-4 text-xl">
@@ -23,4 +23,4 @@ const PhotoCard = ({ className }) => {
 	);
 };
 
-export default PhotoCard;
+export default PhotoCardDois;

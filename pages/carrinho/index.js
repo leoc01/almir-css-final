@@ -3,7 +3,7 @@ import Layout from '@/components/layout';
 import PhotoCardCart from '@/components/photocardcart';
 import Link from 'next/link';
 
-export default function Home() {
+export default function Carrinho() {
 	return (
 		<>
 			<Layout>
