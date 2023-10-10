@@ -1,11 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const PhotoCardCart = ({ text }) => {
 	return (
 		<div className="my-8 flex items-center gap-4 md:gap-8">
-			<Image
+			<img
 				src="/photoalmir.jpg"
 				className="object-contain h-20 md:h-28 shrink drop-shadow-2xl"
 			/>

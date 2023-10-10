@@ -4,7 +4,6 @@ import NavLinkGroup from './navlinkgroup';
 import BurgerMenu from './burguermenu';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 
 const TopNav = () => {
 	const actualLocal = useRouter();
@@ -29,7 +28,7 @@ const TopNav = () => {
 							href="/carrinho"
 							className="bg-black hover:bg-gray-900 text-white px-4 py-2 flex justify-around items-center gap-2 max-w-fit">
 							Ver carrinho
-							<Image
+							<img
 								src="./cart.png"
 								className="h-6"
 							/>
