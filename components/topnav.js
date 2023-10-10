@@ -3,8 +3,11 @@ import Container from './container';
 import NavLinkGroup from './navlinkgroup';
 import BurgerMenu from './burguermenu';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const TopNav = () => {
+	const actualLocal = useRouter();
+
 	return (
 		<div className="relative">
 			<Link
@@ -36,7 +39,16 @@ const TopNav = () => {
 				<div className="mb-12">
 					<Link
 						href="/"
-						className="text-gray-500 underline">{`<- Voltar`}</Link>
+						onClick={() =>
+							actualLocal.back()
+						}
+						className={`${
+							actualLocal.pathname === '/'
+								? 'hidden'
+								: ''
+						} text-gray-500 underline`}>
+						{`<- Voltar`}
+					</Link>
 				</div>
 			</Container>
 		</div>

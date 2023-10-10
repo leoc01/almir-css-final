@@ -10,7 +10,7 @@ const NavLinkGroup = () => {
 				natureza
 			</Link>
 			<Link href="/" className="">
-				humanidade
+				gente
 			</Link>
 			<Link
 				href="/"
@@ -25,12 +25,12 @@ const NavLinkGroup = () => {
 			<Link
 				href="/"
 				className="text-gray-600 underline hover:scale-105">
-				outras
+				território de ausências
 			</Link>
 			<Link
 				href="/"
 				className="text-gray-600 underline hover:scale-105">
-				animais
+				conceito
 			</Link>
 		</div>
 	);

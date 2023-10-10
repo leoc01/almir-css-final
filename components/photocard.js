@@ -1,16 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
 
-const PhotoCard = ({ className }) => {
+const PhotoCard = ({
+	className,
+	imagem,
+	title,
+}) => {
 	return (
 		<div className={`my-8 ${className}`}>
 			<Link href="/produto">
 				<img
-					src="/photoalmir.jpg"
+					src={imagem}
 					className="object-cover h-64 w-full drop-shadow-2xl"
 				/>
 				<h4 className="mx-3 mt-4 text-xl">
-					crianças brincando
+					{title}
 				</h4>
 			</Link>
 			<p className="mx-3 my-1 text-lg text-gray-600">
